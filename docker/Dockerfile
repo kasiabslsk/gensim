@@ -14,20 +14,101 @@ RUN apt-get update \
     g++=4:5.3.1-1ubuntu1 \
     git=1:2.7.4-0ubuntu1 \
     libboost-all-dev=1.58.0.1ubuntu1 \
+    libboost-atomic-dev=1.58.0.1ubuntu1 \
+    libboost-chrono-dev=1.58.0.1ubuntu1 \
+    libboost-context-dev=1.58.0.1ubuntu1 \
+    libboost-coroutine-dev=1.58.0.1ubuntu1 \
+    libboost-date-time-dev=1.58.0.1ubuntu1 \
+    libboost-exception-dev=1.58.0.1ubuntu1 \
+    libboost-filesystem-dev=1.58.0.1ubuntu1 \
+    libboost-graph-dev=1.58.0.1ubuntu1 \
+    libboost-graph-parallel-dev=1.58.0.1ubuntu1 \
+    libboost-iostreams-dev=1.58.0.1ubuntu1 \
+    libboost-locale-dev=1.58.0.1ubuntu1 \
+    libboost-log-dev=1.58.0.1ubuntu1 \
+    libboost-math-dev=1.58.0.1ubuntu1 \
+    libboost-mpi-dev=1.58.0.1ubuntu1 \
+    libboost-mpi-python-dev=1.58.0.1ubuntu1 \
+    libboost-random-dev=1.58.0.1ubuntu1 \
+    libboost-regex-dev=1.58.0.1ubuntu1 \
+    libboost-serialization-dev=1.58.0.1ubuntu1 \
+    libboost-signals-dev=1.58.0.1ubuntu1 \
+    libboost-system-dev=1.58.0.1ubuntu1 \
+    libboost-test-dev=1.58.0.1ubuntu1 \
+    libboost-thread-dev=1.58.0.1ubuntu1 \
+    libboost-timer-dev=1.58.0.1ubuntu1 \
+    libboost-wave-dev=1.58.0.1ubuntu1 \
+    libboost-python-dev=1.58.0.1ubuntu1 \
+    libboost1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-python1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-python1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-atomic1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-chrono1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-context1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-coroutine1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-date-time1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-exception1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-filesystem1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-graph1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-graph-parallel1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-iostreams1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-locale1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-log1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-math1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-mpi1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-mpi-python1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-program-options1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-random1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-regex1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-serialization1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-signals1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-system1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-test1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-thread1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-timer1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-wave1.58-dev=1.58.0+dfsg-5ubuntu3 \
+    libboost-atomic1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-chrono1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-context1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-coroutine1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-date-time1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-filesystem1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-graph-parallel1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-graph1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-iostreams1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-locale1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-log1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-math1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-mpi-python1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-mpi1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-random1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-regex1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-serialization1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-signals1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-system1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-test1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-thread1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-timer1.58.0=1.58.0+dfsg-5ubuntu3 \
+    libboost-wave1.58.0=1.58.0+dfsg-5ubuntu3 \
     libgsl-dev=2.1+dfsg-2 \
     mercurial=3.7.3-1ubuntu1 \
     python3=3.5.1-3 \
     python3-pip=8.1.1-2ubuntu0.4 \
     python3-setuptools=20.7.0-1 \
     python=2.7.11-1 \
+    python-minimal=2.7.11-1 \
+    python-dev=2.7.11-1 \
+    libpython-dev=2.7.11-1 \
+    libpython-stdlib=2.7.11-1 \
     python-pip=8.1.1-2ubuntu0.4 \
     python-setuptools=20.7.0-1 \
     unzip=6.0-20ubuntu1 \
     wget=1.17.1-1ubuntu1.3 \
     subversion=1.9.3-2ubuntu1.1 \
-    locales=2.23-0ubuntu9 \
+    locales=2.23-0ubuntu10 \
     libopenblas-dev=0.2.18-1ubuntu1 \
     libboost-program-options-dev=1.58.0.1ubuntu1 \
+    libboost-program-options1.58-dev=1.58.0+dfsg-5ubuntu3 \
     zlib1g-dev=1:1.2.8.dfsg-2ubuntu4.1
 
 # Setup python language
@@ -42,32 +123,34 @@ RUN pip3 install --upgrade pip
 
 # Install dependencies
 RUN pip2 install \
+    -U numpy \
     cython==0.25.2 \
     jupyter==1.0.0 \
     matplotlib==2.0.0 \
     nltk==3.2.2 \
     pandas==0.19.2 \
-    spacy==1.8.1 \
-    git+https://github.com/mila-udem/blocks.git@7beb788f1fcfc78d56c59a5edf9b4e8d98f8d7d9 \
-    -r https://raw.githubusercontent.com/mila-udem/blocks/stable/requirements.txt
+    theano==1.0.0
+#    -U spacy \
+#    && python2 -m spacy download en \
 
 RUN pip3 install \
+    -U numpy \
     cython==0.25.2 \
     jupyter==1.0.0 \
     matplotlib==2.0.0 \
     nltk==3.2.2 \
     pandas==0.19.2 \
-    spacy==1.8.1 \
-    git+https://github.com/mila-udem/blocks.git@7beb788f1fcfc78d56c59a5edf9b4e8d98f8d7d9 \
-    -r https://raw.githubusercontent.com/mila-udem/blocks/stable/requirements.txt
+    theano==1.0.0
+#    -U spacy \
+#    && python3 -m spacy download en \
 
 # avoid using old numpy version installed by blocks requirements
-RUN pip2 install -U numpy
-RUN pip3 install -U numpy
+#RUN pip2 install -U numpy
+#RUN pip3 install -U numpy
 
 # Download english model of Spacy
-RUN python2 -m spacy download en
-RUN python3 -m spacy download en
+#RUN python2 -m spacy download en
+#RUN python3 -m spacy download en
 
 # Download gensim from Github
 RUN git clone $GENSIM_REPOSITORY \
